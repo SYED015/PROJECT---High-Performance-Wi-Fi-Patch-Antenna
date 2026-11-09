@@ -1,13 +1,6 @@
 # Building a High-Performance Wi-Fi Patch Antenna
 
-<p align="center">
-    <img src="https://img.shields.io/badge/language-CAD-%23ff5722.svg?style=for-the-badge&logo=autodesk" alt="CAD">
-    <img src="https://img.shields.io/badge/format-DXF-blue.svg?style=for-the-badge&logo=autodesk" alt="DXF">
-    <img src="https://img.shields.io/badge/format-STL-red.svg?style=for-the-badge&logo=solidworks" alt="STL">
-    <img src="https://img.shields.io/badge/format-Simulation-yellow.svg?style=for-the-badge&logo=cst" alt="Simulation">
-</p>
-
-## :open_book: Project Overview
+## Project Overview
 
 This repository contains resources for building a Wi-Fi patch antenna designed to optimize the network performance of a desktop PC. The project explores the design, simulation, fabrication, and testing of the antenna. You'll find DXF files for antenna designs, STL files for 3D-printed enclosures, and simulation files used during the design phase.
 
@@ -16,10 +9,6 @@ This repository contains resources for building a Wi-Fi patch antenna designed t
 - **DXF Files**: 2D design files for PCB fabrication.
 - **STL Files**: 3D models for printing the antenna enclosure.
 - **Simulation Files**: Data and configurations from CST Studio used to optimize the antenna design.
-
-![cnc drill gif](https://github.com/user-attachments/assets/9a952ab5-ee59-4765-9632-6e710cda49a1)
-
----
 
 ## :link: Explore the Full Project
 
@@ -77,24 +66,6 @@ This article includes:
 > **Note:** The generated CST output (`Result/`, `Temp/` and `ModelCache/`, roughly 690 MB) is not included in this repository. Open the `.cst` file in CST Studio and re-run the simulation to regenerate it.
 
 ---
-
-### How to Use
-
-1. **Download the Files**:
-   - Clone this repository or download the files directly from the [GitHub repository](https://github.com/HugoTronics/WiFi-Patch-Antenna-Project).
-   - ```git clone https://github.com/HugoTronics/WiFi-Patch-Antenna-Project.git```
-
-2. **Open DXF Files**:
-   - Use a CAD software like AutoCAD or Fusion 360 to view and modify the DXF files for PCB manufacturing.
-
-3. **3D Print STL Files**:
-   - Use any 3D printer compatible with STL files to print the antenna's enclosure. Recommended material is PETG for durability.
-
-4. **Simulate with CST Studio**:
-   - Load the CST Studio project file and re-run the simulation to perform your own design and optimization checks.
-
----
-
 ## 🛠️ Installation and Setup
 
 1. **Antenna Design**:
@@ -134,19 +105,3 @@ This article includes:
 - Add dual-band support for the 5 GHz range alongside 2.4 GHz.
 - Optimize the antenna's design based on real-world feedback.
 - Develop a more compact version for IoT or other specialized applications.
-
----
-
-## :mailbox: Contact and Support
-
-For questions or support, please open an issue on this GitHub repository or contact [corsahu@gmail.com](mailto:corsahu@gmail.com).
-
----
-
-## :book: Additional Resources
-
-- [Wi-Fi Antenna Design Basics](https://www.wikihow.com/Design-a-Simple-Antenna)
-- [Patch Antenna Calculator](https://www.everythingrf.com/tools/microstrip-patch-antenna-calculator)
-- [CST Studio Documentation](https://www.3ds.com/products-services/simulia/products/cst-studio-suite/)
-
----
