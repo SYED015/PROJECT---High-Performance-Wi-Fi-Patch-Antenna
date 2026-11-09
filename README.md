@@ -10,16 +10,6 @@ This repository contains resources for building a Wi-Fi patch antenna designed t
 - **STL Files**: 3D models for printing the antenna enclosure.
 - **Simulation Files**: Data and configurations from CST Studio used to optimize the antenna design.
 
-## :link: Explore the Full Project
-
-For a detailed walkthrough of the project, including step-by-step design, simulation, and testing of the Wi-Fi patch antenna, check out the full article:
-
-<p align="center">
-    <a href="https://hugotronics.github.io/diy-building-a-high-performance-wi-fi-patch-antenna-to-boost-your-connection/" target="_blank">
-        <img src="https://img.shields.io/badge/Read%20the%20Full%20Article-%230084ff.svg?style=for-the-badge&logo=read-the-docs" alt="Read the Full Article">
-    </a>
-</p>
-
 This article includes:
 
 - **In-depth Design Process**: Insights into the choices behind the patch antenna.
